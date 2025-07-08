@@ -19,7 +19,7 @@ Este simulador te permite:
 
 ## Cómo usar el simulador
 
-1. Abre el archivo `main.js` en tu navegador web
+1. Abre el archivo `index.html` con tu navegador web
 2. Se abrirá una ventana que te muestra el menú
 3. Escribe el número de la bebida que quieres (1, 2 o 3)
 4. Escribe cuántas bebidas quieres
@@ -38,15 +38,6 @@ Usuario elige: 1 (Café)
 ¿Cuántos Cafés deseas? 2
 Total a pagar por 2 Café(s): $800
 ```
-
-## Cómo ejecutar el programa
-
-1. Abre tu navegador web (Chrome, Firefox, etc.)
-2. Presiona F12 para abrir las herramientas de desarrollador
-3. Ve a la pestaña "Console" (Consola)
-4. Copia y pega todo el código de `main.js`
-5. Presiona Enter
-6. ¡El simulador empezará a funcionar!
 
 ## Lo que aprendí haciendo este proyecto
 
