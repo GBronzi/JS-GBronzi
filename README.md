@@ -1,6 +1,6 @@
 # ☕ Simulador de Cafetería
 
-Una aplicación web interactiva para simular una cafetería virtual
+Una aplicación web interactiva para simular una cafetería virtual.
 
 ## ¿Qué hace este programa?
 
