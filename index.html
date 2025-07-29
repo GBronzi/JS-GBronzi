@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">+
-    <script src="main.js" defer></script>
-    <title>Cafeteria</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Simulador de Cafetería</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>☕ Simulador de Cafetería</h1>
+            <p>Bienvenido a nuestra cafetería virtual</p>
+        </header>
+
+        <main>
+            <!-- Sección del Menú -->
+            <section class="menu-section">
+                <h2>🍵 Nuestro Menú</h2>
+                <div id="menu-container" class="menu-grid">
+                    <!-- El menú se carga dinámicamente con JavaScript -->
+                </div>
+            </section>
+
+            <!-- Sección del Carrito -->
+            <section class="cart-section">
+                <h2>🛒 Tu Pedido</h2>
+                <div id="cart-container">
+                    <div id="cart-items">
+                        <p class="empty-cart">Tu carrito está vacío</p>
+                    </div>
+                    <div id="cart-total">
+                        <h3>Total: $<span id="total-amount">0</span></h3>
+                    </div>
+                    <div class="cart-actions">
+                        <button id="clear-cart" class="btn btn-secondary">Vaciar Carrito</button>
+                        <button id="checkout" class="btn btn-primary">Finalizar Compra</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Modal para confirmación de compra -->
+        <div id="checkout-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>¡Compra Realizada!</h2>
+                <p id="purchase-summary"></p>
+                <button id="new-order" class="btn btn-primary">Nueva Compra</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
